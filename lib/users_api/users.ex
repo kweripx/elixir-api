@@ -5,9 +5,9 @@ defmodule UsersApi.Users do
   import Ecto.Changeset
 
   schema "users" do
-    field :name, :string,
-    field :age, :integer,
-    field :email, :string,
+    field :name, :string
+    field :age, :integer
+    field :email, :string
     field :password, :string
   end
 end
